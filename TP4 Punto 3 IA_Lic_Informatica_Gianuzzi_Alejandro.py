@@ -7,7 +7,7 @@ def load_image_from_file(file_path):
     return cv2.imread(file_path, cv2.IMREAD_COLOR)
 
 # Ruta de la imagen local
-image_path = "/home/ale/Documentos/3.jpg"  # Reemplaza con la ruta de tu archivo local
+image_path = "/home/ale/Documentos/2.jpg"  # Reemplaza con la ruta de tu archivo local
 
 # Cargar la imagen desde el archivo local
 image = load_image_from_file(image_path)
