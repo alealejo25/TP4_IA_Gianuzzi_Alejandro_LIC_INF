@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Ruta de la imagen en tu PC
-image_path = "/home/ale/Documentos/2.jpg"  # Reemplaza con la ruta de tu imagen
+image_path = "/home/ale/Documentos/2.jpg"  
 
 # Cargar la imagen desde la PC
 image = cv2.imread(image_path)
